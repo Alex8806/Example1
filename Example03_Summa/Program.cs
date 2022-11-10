@@ -1,5 +1,5 @@
-﻿int NumberA=3;
-int NumberB=2;
+﻿double NumberA =new Random().Next(1,191);
+Console.WriteLine(NumberA);
+double NumberB=new Random().Next(1,191);
+Console.WriteLine(NumberB);
 Console.WriteLine(NumberA+NumberB);
-
-Console.WriteLine("Hello, World!");
